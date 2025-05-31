@@ -33,8 +33,8 @@ Many learners struggle to grasp sorting algorithms due to the lack of visualizat
    ```
 
 2. Open `index.html` in your preferred browser.
-3. You will get this page
-   [image](https://github.com/user-attachments/assets/98b86f48-aa65-4f4d-8eb0-3fcabafbac76)
+3. You will get this page![Screenshot 2025-06-01 004707](https://github.com/user-attachments/assets/5a783ef9-93fd-47dc-a74f-6a0df07604ff)
+
 
 4. Use the UI controls to:
    * Generate a new array
