@@ -31,8 +31,10 @@ Many learners struggle to grasp sorting algorithms due to the lack of visualizat
    ```
 
 2. Open `index.html` in your preferred browser.
+3. You will get this page
+   [image](https://github.com/user-attachments/assets/98b86f48-aa65-4f4d-8eb0-3fcabafbac76)
 
-3. Use the UI controls to:
+4. Use the UI controls to:
    * Generate a new array
    * Choose a sorting algorithm
    * Adjust array size and speed
