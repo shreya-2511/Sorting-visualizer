@@ -37,9 +37,3 @@ Many learners struggle to grasp sorting algorithms due to the lack of visualizat
    * Choose a sorting algorithm
    * Adjust array size and speed
    * Visualize the sorting process
-
-Inspired by many online sorting visualizers and built as a learning project to strengthen understanding of core JavaScript concepts and sorting algorithms.
-
----
-
-Let me know if you'd like this in a downloadable file or if you'd like to customize it further (e.g., add your name, GitHub handle, or link to a live site).
