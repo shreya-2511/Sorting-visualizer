@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorting Visualizer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+  <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div class="w-100 p-4 border rounded bg-secondary" style="max-width: 1200px">
+      <h1 class="text-center mb-4 ">Sorting Visualizer</h1>
+
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+        <!-- New Array button aligned left -->
+        <div>
+            <button id="new-array" class="btn btn-outline-dark border-2 btn-sm">new array</button>
+        </div>
+        <span>
+            <label for="arr_sz" class="form-label">Array Size</label>
+            <input id="numSize" type="range"  min=2 max=500 step=1 value=60>
+        </span> 
+        <span>
+            <label for="speed" class="form-label">Speed</label>
+            <input id="speed" type="range"  min=2 max=200 step=1 value=60>
+        </span> 
+        <!-- Sorting buttons aligned right -->
+        <div class="d-flex flex-wrap gap-2">
+            <button class="btn btn-dark btn-sm" id="bubbleSortBtn">Bubble sort</button>
+            <button class="btn btn-dark btn-sm" id="selectionSortBtn">Selection sort</button>
+            <button class="btn btn-dark btn-sm" id="insertionSortBtn">Insertion sort</button>
+            <button class="btn btn-dark btn-sm" id="quickSortBtn">Quick sort</button>
+            <button class="btn btn-dark btn-sm" id="mergeSortBtn">Merge sort</button>
+        </div>
+        </div>
+
+
+      <div id="bars" class="bg-dark rounded" style="height: 25rem;">
+        <!-- Bars will go here -->
+      </div>
+    </div>
+  </div>
+  <!-- <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <div class="bars" id="bars">
+    </div>
+  </nav> -->
+
+
+  <script type="module" src="./js/sorting.js"></script>
+  <script type="module" src="js/bubble.js"></script>
+    <script type="module" src="js/insertion.js"></script>
+    <script type="module" src="js/selection.js"></script>
+    <script type="module" src="js/quick.js"></script>
+    <script type="module" src="js/merge.js"></script>
+</body>
+</html>
