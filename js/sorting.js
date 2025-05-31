@@ -1,6 +1,6 @@
 export function getSpeed() {
     const speedBtn = document.getElementById("speed");
-    return parseInt(speedBtn.value);
+    return 1000 / parseFloat(speedBtn.value);
 }
 
 export function swap(el1, el2) {
