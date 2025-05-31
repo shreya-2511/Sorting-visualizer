@@ -1,3 +1,5 @@
+# Sorting Algorithm Visualizer
+ 
 📌 Project Objective
 
 Many learners struggle to grasp sorting algorithms due to the lack of visualization. This project aims to make algorithms like **Bubble Sort**, **Selection Sort**, **Insertion Sort**, and **Quick Sort** more intuitive by animating their behavior in real time.
