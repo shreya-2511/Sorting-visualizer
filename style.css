@@ -12,7 +12,10 @@ body {
  
   overflow: hidden;
 } */
-
+#speed{
+  background-color: blue;
+  color: blue;
+}
 #bars {
   display: flex;
   justify-content: center;
